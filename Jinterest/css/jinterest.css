@@ -1,0 +1,60 @@
+.jt-body {
+	max-width: 1178px;
+	margin: auto;
+	width: 95%;
+}
+
+.jt-row-padding-zero {
+	padding: 0px;
+}
+
+.jt-content {
+	width: 99%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.jt-content-box {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: white;
+}
+
+.jt-content-box img {
+	width: 100%;
+}
+
+.jt-content-box-text {
+	padding: 10px;
+}
+
+.jt-rounded-top {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.jt-rounded-bottom {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.jt-shadow {
+	box-shadow: 1px 1px 2px #cccccc;
+}
+
+.jt-text-title {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #729fe2;
+}
+
+.jt-text-content {
+	font-size: 10pt;
+}
+
+.jt-text-date {
+	font-size: 9pt;
+}

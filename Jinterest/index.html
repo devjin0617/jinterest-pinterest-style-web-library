@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+		<!-- Jinterest CSS -->
+		<link rel="stylesheet" href="css/jinterest.css">
+
+		<style>
+			body {
+				background-color: #dddddd;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<!-- .jt-body class in div -->
+		<div class="jt-body">
+
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+		<!-- Jinterest JavaScript -->
+		<script src="js/jinterest.js"></script>
+
+		<script>
+			$(document).ready(function() {
+
+				/*
+				 * get Object
+				 * Ex) ajax use
+				 *
+				 * */
+				var listObj = [{
+					id : '1',
+					img_url : 'img/img_0.png',
+					title : 'helloworld',
+					content : 'hello content',
+					date : '2014.05.01',
+					like_count : '99',
+					reply_count : '10'
+				}, {
+					id : '2',
+					img_url : 'img/img_1.png',
+					title : 'helloworld',
+					content : 'hello content',
+					date : '2014.06.01',
+					like_count : '99',
+					reply_count : '10'
+				}, {
+					id : '3',
+					img_url : 'img/img_2.png',
+					title : 'helloworld',
+					content : 'hello content',
+					date : '2013.02.01',
+					like_count : '99',
+					reply_count : '10'
+				}, {
+					id : '4',
+					img_url : 'img/img_3.png',
+					title : 'helloworld',
+					content : 'hello content',
+					date : '2014.04.28',
+					like_count : '99',
+					reply_count : '10'
+				}, {
+					id : '5',
+					img_url : 'img/img_4.png',
+					title : 'helloworld',
+					content : 'hello content',
+					date : '2014.03.11',
+					like_count : '99',
+					reply_count : '10'
+				}, {
+					id : '6',
+					img_url : 'img/img_5.png',
+					title : 'helloworld',
+					content : 'hello content',
+					date : '2011.10.09',
+					like_count : '99',
+					reply_count : '10'
+				}, {
+					id : '7',
+					img_url : 'img/img_6.png',
+					title : 'hello jin',
+					content : 'my nickname is devjin0617',
+					date : '2014.05.04',
+					like_count : '999',
+					reply_count : '999'
+				}];
+
+				/* jinterest init */
+				jinterest.init(listObj);
+
+			});
+
+		</script>
+	</body>
+</html>
