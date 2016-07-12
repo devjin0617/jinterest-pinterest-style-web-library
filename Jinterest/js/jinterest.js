@@ -1,7 +1,4 @@
-var jinterest = new Object();
-
-jinterest.init = function(list) {
-
+function Jinterest(list) {
 	$.get("jinterest-form.html", function(form) {
 		$('.jt-body').html(form);
 
@@ -35,5 +32,4 @@ jinterest.init = function(list) {
 		});
 
 	});
-
-};
+}
