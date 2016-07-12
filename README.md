@@ -62,8 +62,8 @@ Use? Very Easy!
 				
 			$(document).ready(function() {
 			
-			    /* jinterest init */
-				  jinterest.init(listObj);
+			    	/* jinterest init */
+				Jinterest(listObj);
 			});
 				
 				
