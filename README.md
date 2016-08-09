@@ -1,6 +1,8 @@
 jinterest-pinterest-style-web-library
 =====================================
 
+[![Join the chat at https://gitter.im/devjin0617/jinterest-pinterest-style-web-library](https://badges.gitter.im/devjin0617/jinterest-pinterest-style-web-library.svg)](https://gitter.im/devjin0617/jinterest-pinterest-style-web-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 jQuery + Bootstrap Pinterest Style Web Library
 
 # How to Use
